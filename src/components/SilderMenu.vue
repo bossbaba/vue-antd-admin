@@ -13,7 +13,7 @@
           <span>Navigation One</span>
         </span>
         <a-menu-item key="1">Option 1</a-menu-item>
-        <a-menu-item key="2">Option 2</a-menu-item>
+        <a-menu-item key="2">Optirwwrwrwron 2</a-menu-item>
         <a-menu-item key="3">Option 3</a-menu-item>
         <a-menu-item key="4">Option 4</a-menu-item>
       </a-sub-menu>
