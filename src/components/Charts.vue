@@ -9,7 +9,7 @@ import echarts from "echarts";
 export default {
   data() {
     return {
-      Data: Arroption
+      
     };
   },
   props:{
@@ -31,7 +31,6 @@ export default {
     width: fit-content;
     background: #fff;
     padding: 10px;
-
     .echart-dome {
       min-width: 700px;
       height: 300px;
