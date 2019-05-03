@@ -27,3 +27,10 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+ mongod --dbpath D:mongo\data\db  //create cmd
+
+ mongo //create anthor cmd
+ 

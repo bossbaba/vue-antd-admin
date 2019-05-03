@@ -43,7 +43,7 @@ export default {
             {
               id: 3,
               name: "用户管理",
-              routerLink: "#"
+              routerLink: "/userManagement"
             }
           ]
         },

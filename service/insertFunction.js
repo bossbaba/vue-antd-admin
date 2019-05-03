@@ -3,7 +3,6 @@
  * tabbleName - 表名
  * insertData - 需要插入的数据必须是数组对象
  * callback - 回调函数 */
-const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 insertDocument = (db,tabbleName,insertData,callback) => {
   
