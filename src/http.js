@@ -5,7 +5,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded
 const $http = axios.create({
   // headers: {'X-Custom-Header': 'foobar'}// 这里不加任何东西
   // baseURL: 'http://192.168.1.10/'
-  baseURL: 'http://admin.k3yk.com/'
+  baseURL: 'http://localhost:3000'
 })
 
 $http.interceptors.request.use((config) => {
