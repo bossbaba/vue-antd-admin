@@ -3,6 +3,7 @@ const Management = ()=>import('@/views/Management/Management')
 const issueDemand = () => import('@/views/issueDemand/issueDemand.vue')
 const ChartsDome = () => import('@/views/ChartsDome/ChartsDome.vue')
 const userManagement = () => import('@/views/Management/userManagement.vue')
+const AntvG2 = () => import('@/views/AntVChartsDemo/AntVChartsDemo.vue')
 const routerEntry = [
   {
     path: '/',
@@ -24,6 +25,10 @@ const routerEntry = [
     path: '/userManagement',
     name: 'userManagement',
     component: userManagement
+  },{
+    path: '/AntvG2',
+    name: 'AntvG2',
+    component: AntvG2
   },
 ]
 

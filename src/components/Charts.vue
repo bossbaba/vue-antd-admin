@@ -31,9 +31,11 @@ export default {
     width: fit-content;
     background: #fff;
     padding: 10px;
+    width 700px
+    height 300px
     .echart-dome {
-      min-width: 700px;
-      height: 300px;
+      width 100%
+      height 100%
     }
   }
 </style>

@@ -73,13 +73,13 @@ export default {
           sunMenu: [
             {
               id: 1,
-              name: "图表示例",
+              name: "Echarts图表示例",
               routerLink: "/ChartsDome"
             },
             {
               id: 2,
-              name: "发布通知",
-              routerLink: "#"
+              name: "antVG2图表示例",
+              routerLink: "/AntvG2"
             },
             {
               id: 3,
