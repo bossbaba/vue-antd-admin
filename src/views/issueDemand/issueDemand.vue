@@ -1,5 +1,11 @@
 <template>
   <div class="issueDemand">
+    <div class="addtitle">
+      <span>添加文章标题</span>
+      <div>
+        <input type="text" placeholder="请输入">
+      </div>
+    </div>
     <div class="moudel">
         <div class="edit_container">
           <quill-editor
@@ -36,6 +42,9 @@ export default {
   components: {
     quillEditor
   },
+  mounted () {
+    console.log(this.$refs.myQuillEditor.quill)
+  },
   methods: {
     onEditorReady(editor) {
       // 准备编辑器
@@ -46,6 +55,7 @@ export default {
         content:this.content
       }).then(resp=>{
         console.log(resp)
+        this.content = ''
       })
     },
     clear () {
@@ -70,10 +80,26 @@ export default {
   padding: 10px;
   box-sizing: border-box;
   position relative
+  .addtitle
+    height 100px;
+    display flex
+    justify-content  space-between
+    flex-direction column
+    box-sizing border-box
+    padding 20px 0
+    div
+      border 1px solid #ccc
+      input
+        width 100%
+        height 30px
+        border none 
+        box-sizing border-box
+        padding 0 20px
   .edit_container
     height 800px
   .quill-editor
     height 700px
+    position relative
   .btn-group
     position absolute
     right 30px

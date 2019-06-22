@@ -1,7 +1,7 @@
 module.exports =  connectConfig = {
-  host     : 'localhost',
+  host     : '118.190.202.228',
   user     : 'root',
   password : 'root',
-  database : 'test',
+  database : 'mydb',
   charset : 'utf8mb4'
 }

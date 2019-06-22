@@ -96,5 +96,4 @@ td,
 th
   padding 0
   text-align left
-
 </style>
